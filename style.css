@@ -1,0 +1,71 @@
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 308px; 
+    opacity: 0.8;
+    
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bg {
+  
+  background-image: url("https://images.squarespace-cdn.com/content/v1/53d2a7e3e4b0b557d6a80e66/1543988963531-C3HHBKRVXCF5V3OID0H7/ke17ZwdGBToddI8pDm48kEMKL0OLXTS4lYMNB-v6AWYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcIc8VGsFfTP8KtKin0skOdertujunGnj_8glCIDoXqeVf5xJJu-ZmgMXgzRqe9RnF/d-tech-drone.jpg?format=2500w");
+
+  
+  height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #333;
+  border: 1px solid #555;
+  align-content: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family:'Lucida Console'
+
+}
+
+
+li a:hover {
+  background-color: black;
+  color: white;
+  font-family:'Lucida Console'
+}
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+* {
+  box-sizing:border-box;
+}
